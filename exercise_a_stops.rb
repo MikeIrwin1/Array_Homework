@@ -18,10 +18,11 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 
 # 5. Remove `"Livingston"` from the array using its name
 
-stops.delete("Livingston")
-p stops
+#stops.delete("Livingston")
+
 # 6. Delete `"Cumbernauld"` from the array by index
 
+stops.delete_at(1)
 
 
 # 7. How many stops there are in the array?
