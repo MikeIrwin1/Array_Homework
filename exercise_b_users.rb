@@ -96,7 +96,10 @@ p users["Erik"][:home_town] = "Edinburgh"
 
 pets = users["Erik"][:pets]
 pets<<{name: "Fluffy", species: "Dog"}
-p pets
+
 
 
 # 10. Add another person to the users hash
+
+users["Mike"] = {twitter: "mikei", lottery_numbers: [1, 2, 3, 4, 5, 6], home_town: "Edinburgh"}
+p users
