@@ -30,8 +30,8 @@ stops_in_array = stops.count
 
 # 8. How many ways can we return `"Falkirk High"` from the array?
 
-return by index or return by element = 2
-#
+#return by index or return by element = 2
+
 # 9. Reverse the positions of the stops in the array
 
 stops_reverse = stops.reverse
