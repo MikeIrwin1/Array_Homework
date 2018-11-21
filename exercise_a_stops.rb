@@ -27,14 +27,15 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 
 # 7. How many stops there are in the array?
 
-stops_in_array = stops.count
+#stops_in_array = stops.count
 
 # 8. How many ways can we return `"Falkirk High"` from the array?
 
-
+#return by index or return by element = 2
 
 # 9. Reverse the positions of the stops in the array
 
-
+stops_reverse = stops.reverse
+p stops_reverse
 
 # 10. Print out all the stops using a for loop
