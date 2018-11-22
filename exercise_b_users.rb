@@ -76,13 +76,13 @@ p users["Erik"][:lottery_numbers].min
 
 # 6. Return an array of Avril's lottery numbers that are even
 
-lottery = users["Avril"][:lottery_numbers]
-
-for num in lottery
+even_array = Array.new
+for num in users["Avril"][:lottery_numbers]
   if num % 2 == 0
-    p num
+    even_array << num
   end
 end
+p even_array
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 
@@ -97,7 +97,7 @@ p users["Erik"][:home_town] = "Edinburgh"
 pets = users["Erik"][:pets]
 pets<<{name: "Fluffy", species: "Dog"}
 
-
+or
 
 # 10. Add another person to the users hash
 
